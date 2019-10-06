@@ -8,34 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		5CEC2CC8234706B2003F8114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CC7234706B2003F8114 /* AppDelegate.swift */; };
-		5CEC2CCA234706B2003F8114 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CC9234706B2003F8114 /* ListViewController.swift */; };
 		5CEC2CCD234706B2003F8114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEC2CCB234706B2003F8114 /* Main.storyboard */; };
 		5CEC2CCF234706B3003F8114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEC2CCE234706B3003F8114 /* Assets.xcassets */; };
 		5CEC2CD2234706B3003F8114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEC2CD0234706B3003F8114 /* LaunchScreen.storyboard */; };
-		5CEC2CDA2347072B003F8114 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CD92347072B003F8114 /* MapViewController.swift */; };
-		5CEC2CDE23470974003F8114 /* MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CDD23470974003F8114 /* MapPoint.swift */; };
-		5CEC2CE023470AEE003F8114 /* CombinedPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CDF23470AEE003F8114 /* CombinedPoints.swift */; };
-		5CEC2CE32347D500003F8114 /* MapPinAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEC2CE12347D500003F8114 /* MapPinAccessoryView.xib */; };
-		5CEC2CE42347D500003F8114 /* MapPinAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CE22347D500003F8114 /* MapPinAccessoryView.swift */; };
-		5CEC2CE72348630C003F8114 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CE52348630C003F8114 /* InfoView.swift */; };
-		5CEC2CE82348630C003F8114 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEC2CE62348630C003F8114 /* InfoView.xib */; };
+		5CEC2CF4234A0530003F8114 /* MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CEA234A0530003F8114 /* MapPoint.swift */; };
+		5CEC2CF5234A0530003F8114 /* CombinedPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CEB234A0530003F8114 /* CombinedPoints.swift */; };
+		5CEC2CF6234A0530003F8114 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CED234A0530003F8114 /* ListViewController.swift */; };
+		5CEC2CF7234A0530003F8114 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CEE234A0530003F8114 /* MapViewController.swift */; };
+		5CEC2CF8234A0530003F8114 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CF0234A0530003F8114 /* InfoView.swift */; };
+		5CEC2CF9234A0530003F8114 /* MapPinAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEC2CF1234A0530003F8114 /* MapPinAccessoryView.xib */; };
+		5CEC2CFA234A0530003F8114 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEC2CF2234A0530003F8114 /* InfoView.xib */; };
+		5CEC2CFB234A0530003F8114 /* MapPinAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC2CF3234A0530003F8114 /* MapPinAccessoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5CEC2CC4234706B2003F8114 /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEC2CC7234706B2003F8114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5CEC2CC9234706B2003F8114 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		5CEC2CCC234706B2003F8114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CEC2CCE234706B3003F8114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CEC2CD1234706B3003F8114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CEC2CD3234706B3003F8114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CEC2CD92347072B003F8114 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		5CEC2CDD23470974003F8114 /* MapPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoint.swift; sourceTree = "<group>"; };
-		5CEC2CDF23470AEE003F8114 /* CombinedPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedPoints.swift; sourceTree = "<group>"; };
-		5CEC2CE12347D500003F8114 /* MapPinAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapPinAccessoryView.xib; sourceTree = "<group>"; };
-		5CEC2CE22347D500003F8114 /* MapPinAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPinAccessoryView.swift; sourceTree = "<group>"; };
-		5CEC2CE52348630C003F8114 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		5CEC2CE62348630C003F8114 /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		5CEC2CEA234A0530003F8114 /* MapPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPoint.swift; sourceTree = "<group>"; };
+		5CEC2CEB234A0530003F8114 /* CombinedPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedPoints.swift; sourceTree = "<group>"; };
+		5CEC2CED234A0530003F8114 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5CEC2CEE234A0530003F8114 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5CEC2CF0234A0530003F8114 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		5CEC2CF1234A0530003F8114 /* MapPinAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapPinAccessoryView.xib; sourceTree = "<group>"; };
+		5CEC2CF2234A0530003F8114 /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		5CEC2CF3234A0530003F8114 /* MapPinAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPinAccessoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,20 +69,44 @@
 			isa = PBXGroup;
 			children = (
 				5CEC2CC7234706B2003F8114 /* AppDelegate.swift */,
-				5CEC2CC9234706B2003F8114 /* ListViewController.swift */,
-				5CEC2CD92347072B003F8114 /* MapViewController.swift */,
-				5CEC2CDF23470AEE003F8114 /* CombinedPoints.swift */,
-				5CEC2CDD23470974003F8114 /* MapPoint.swift */,
-				5CEC2CE22347D500003F8114 /* MapPinAccessoryView.swift */,
-				5CEC2CE12347D500003F8114 /* MapPinAccessoryView.xib */,
-				5CEC2CE52348630C003F8114 /* InfoView.swift */,
-				5CEC2CE62348630C003F8114 /* InfoView.xib */,
+				5CEC2CEF234A0530003F8114 /* CustomViews */,
+				5CEC2CE9234A0530003F8114 /* Models */,
+				5CEC2CEC234A0530003F8114 /* ViewControllers */,
 				5CEC2CCB234706B2003F8114 /* Main.storyboard */,
 				5CEC2CCE234706B3003F8114 /* Assets.xcassets */,
 				5CEC2CD0234706B3003F8114 /* LaunchScreen.storyboard */,
 				5CEC2CD3234706B3003F8114 /* Info.plist */,
 			);
 			path = MapDemo;
+			sourceTree = "<group>";
+		};
+		5CEC2CE9234A0530003F8114 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC2CEA234A0530003F8114 /* MapPoint.swift */,
+				5CEC2CEB234A0530003F8114 /* CombinedPoints.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CEC2CEC234A0530003F8114 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC2CED234A0530003F8114 /* ListViewController.swift */,
+				5CEC2CEE234A0530003F8114 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5CEC2CEF234A0530003F8114 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC2CF2234A0530003F8114 /* InfoView.xib */,
+				5CEC2CF0234A0530003F8114 /* InfoView.swift */,
+				5CEC2CF1234A0530003F8114 /* MapPinAccessoryView.xib */,
+				5CEC2CF3234A0530003F8114 /* MapPinAccessoryView.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +166,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CEC2CE32347D500003F8114 /* MapPinAccessoryView.xib in Resources */,
 				5CEC2CD2234706B3003F8114 /* LaunchScreen.storyboard in Resources */,
-				5CEC2CE82348630C003F8114 /* InfoView.xib in Resources */,
+				5CEC2CF9234A0530003F8114 /* MapPinAccessoryView.xib in Resources */,
+				5CEC2CFA234A0530003F8114 /* InfoView.xib in Resources */,
 				5CEC2CCF234706B3003F8114 /* Assets.xcassets in Resources */,
 				5CEC2CCD234706B2003F8114 /* Main.storyboard in Resources */,
 			);
@@ -157,13 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CEC2CCA234706B2003F8114 /* ListViewController.swift in Sources */,
-				5CEC2CE023470AEE003F8114 /* CombinedPoints.swift in Sources */,
-				5CEC2CDA2347072B003F8114 /* MapViewController.swift in Sources */,
-				5CEC2CDE23470974003F8114 /* MapPoint.swift in Sources */,
-				5CEC2CE42347D500003F8114 /* MapPinAccessoryView.swift in Sources */,
+				5CEC2CF7234A0530003F8114 /* MapViewController.swift in Sources */,
+				5CEC2CF4234A0530003F8114 /* MapPoint.swift in Sources */,
+				5CEC2CF8234A0530003F8114 /* InfoView.swift in Sources */,
 				5CEC2CC8234706B2003F8114 /* AppDelegate.swift in Sources */,
-				5CEC2CE72348630C003F8114 /* InfoView.swift in Sources */,
+				5CEC2CFB234A0530003F8114 /* MapPinAccessoryView.swift in Sources */,
+				5CEC2CF6234A0530003F8114 /* ListViewController.swift in Sources */,
+				5CEC2CF5234A0530003F8114 /* CombinedPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
