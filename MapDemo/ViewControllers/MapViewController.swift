@@ -64,7 +64,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
 		let annotationIdentifier = "mapPoint"
 
-		var annotationView: MKAnnotationView?
+		var annotationView: MKAnnotationView!
+
 		if let dequeuedAnnotationView = mapView.dequeueReusableAnnotationView(withIdentifier: annotationIdentifier) {
 			annotationView = dequeuedAnnotationView
 			annotationView?.annotation = annotation
@@ -74,8 +75,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 			annotationView = av
 		}
 
-		if let annotationView = annotationView,
-		   let mapPointAnnotation = annotationView.annotation as? MapPoint {
+		if let mapPointAnnotation = annotationView.annotation as? MapPoint {
 			annotationView.canShowCallout = false
 			let mapPinAccessory = MapPinAccessoryView.init()
 			mapPinAccessory.icon.image = UIImage(named: mapPointAnnotation.imageName)
